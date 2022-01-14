@@ -3,8 +3,8 @@ const tokens = {
   admin: {
     token: 'admin-token'
   },
-  editor: {
-    token: 'editor-token'
+  guest: {
+    token: 'guest-token'
   }
 }
 
@@ -15,9 +15,9 @@ const users = {
     avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
     name: 'Super Admin'
   },
-  'editor-token': {
+  'guest-token': {
     roles: ['guest'],
-    introduction: 'I am an editor',
+    introduction: 'I am a guest',
     avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
     name: 'Normal Guest'
   }
